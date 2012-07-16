@@ -10,7 +10,4 @@ set_include_path(implode(PATH_SEPARATOR, array(
 )));
 
 // Autoloader
-spl_autoload_register(function($className){
-    $path = str_replace('\\', '/', $className) . ".php";
-    require_once $path;
-});
+require_once 'bin/autoloader.php';
