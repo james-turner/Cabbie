@@ -21,3 +21,14 @@ from CLI:
     php cabbie.phar path/to/points.csv
 
 The result should give you the output, including the list of points that are valid, i.e. erroneous points are removed.
+
+
+## Tests (Dependencies)
+
+ - PHPUnit
+
+## Tests (Runtime)
+
+To run the tests just cd to the project directory and do:
+
+    phpunit test/*
