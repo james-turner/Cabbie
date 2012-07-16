@@ -11,3 +11,10 @@ The attached dataset is provided as an example, with a png of the 'cleaned' rout
 
  - Erroneous errors are duplicate points
  - Data files containing POINTS are ALWAYS in timestamp order, i.e. chronological
+
+## Usage
+
+Download the phar file from [here](https://github.com/downloads/james-turner/Cabbie/cabbie.phar "Cabbie Phar file")
+
+  from CLI:
+    php cabbie.phar path/to/points.csv
