@@ -16,5 +16,8 @@ The attached dataset is provided as an example, with a png of the 'cleaned' rout
 
 Download the phar file from [here](https://github.com/downloads/james-turner/Cabbie/cabbie.phar "Cabbie Phar file")
 
-  from CLI:
+from CLI:
+
     php cabbie.phar path/to/points.csv
+
+The result should give you the output, including the list of points that are valid, i.e. erroneous points are removed.
